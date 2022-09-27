@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            AgeProgram.Age();
+            AgePrograms.YearGroup2.YearGroup(10);
         }
     }
 }

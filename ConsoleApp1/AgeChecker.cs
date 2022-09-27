@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class AgeProgram
+    internal class AgeChecker
     {
         public static void Age()
         {

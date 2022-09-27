@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgeProgram.cs" />
-    <Compile Include="AgePrograms\YearGroup1.cs" />
-    <Compile Include="AgePrograms\YearGroup2.cs" />
+    <Compile Include="AgeChecker.cs" />
+    <Compile Include="AgePrograms\YearGroupExample1.cs" />
+    <Compile Include="AgePrograms\YearGroupExample2.cs" />
     <Compile Include="CDQuality.cs" />
+    <Compile Include="MonthChecker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

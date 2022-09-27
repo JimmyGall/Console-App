@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.AgePrograms
 {
-    internal class YearGroup2
+    internal class YearGroupExample2
     {
         public static void YearGroup(int Year)
         {

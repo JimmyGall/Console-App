@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     internal class AgeProgram
     {
-        static void Main(string[] args)
+        public static void Age()
         {
 
             Console.WriteLine("What is your age?");

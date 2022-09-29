@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            ClampProblem.Clamp(3, 10, 20);
+            LeapYear.Year(1945);
         }
     }
 }

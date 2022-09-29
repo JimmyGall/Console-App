@@ -48,6 +48,7 @@
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
     <Compile Include="CDQuality.cs" />
     <Compile Include="ClampProblem.cs" />
+    <Compile Include="LeapYear.cs" />
     <Compile Include="MonthChecker.cs" />
     <Compile Include="PolyhedralDice.cs" />
     <Compile Include="Program.cs" />

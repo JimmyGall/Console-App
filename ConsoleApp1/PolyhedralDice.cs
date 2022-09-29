@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    internal class PolyhedralDice
     {
-        static void Main(string[] args)
+        public static void DiceProblem()
         {
-            ClampProblem.Clamp(3, 10, 20);
+
         }
     }
 }

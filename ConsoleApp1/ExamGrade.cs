@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    internal class ExamGrade
     {
-        static void Main(string[] args)
-        {
-            CurrencyConvertor.ExchangeGDPToUSD(10);
-        }
     }
 }

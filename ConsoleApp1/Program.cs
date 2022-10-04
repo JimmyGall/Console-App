@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            LeapYear.Year(1945);
+            EnergyBill.Calcualte(8.5, 10, 39.3);
         }
     }
 }

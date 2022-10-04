@@ -46,8 +46,13 @@
     <Compile Include="AgeChecker.cs" />
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
+    <Compile Include="CarpetCalculator.cs" />
     <Compile Include="CDQuality.cs" />
     <Compile Include="ClampProblem.cs" />
+    <Compile Include="ConvertTempeture.cs" />
+    <Compile Include="DiceFace.cs" />
+    <Compile Include="EnergyBill.cs" />
+    <Compile Include="FishTank.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="MonthChecker.cs" />
     <Compile Include="PolyhedralDice.cs" />

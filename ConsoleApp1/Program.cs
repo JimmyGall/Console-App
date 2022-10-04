@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Ballpit.Calculate(1, 0.2, 0.05);
+            JobQuotes.Job("Developer");
         }
     }
 }

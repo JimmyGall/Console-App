@@ -53,15 +53,19 @@
     <Compile Include="ClampProblem.cs" />
     <Compile Include="ConvertTempeture.cs" />
     <Compile Include="DiceFace.cs" />
+    <Compile Include="DrivingTest.cs" />
     <Compile Include="EnergyBill.cs" />
     <Compile Include="FishTank.cs" />
+    <Compile Include="JobQuotes.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="MaxProblem.cs" />
     <Compile Include="Microscope.cs" />
     <Compile Include="MonthChecker.cs" />
     <Compile Include="PolyhedralDice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaveTheChangeProblem.cs" />
+    <Compile Include="WaterStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

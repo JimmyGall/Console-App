@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            EnergyBill.Calcualte(8.5, 10, 39.3);
+            Ballpit.Calculate(1, 0.2, 0.05);
         }
     }
 }

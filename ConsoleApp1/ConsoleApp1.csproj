@@ -48,6 +48,7 @@
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
     <Compile Include="CarpetCalculator.cs" />
     <Compile Include="CDQuality.cs" />
+    <Compile Include="Circle.cs" />
     <Compile Include="ClampProblem.cs" />
     <Compile Include="ConvertTempeture.cs" />
     <Compile Include="DiceFace.cs" />

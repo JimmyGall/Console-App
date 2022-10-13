@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    internal class PeriodicTable
     {
-        static void Main(string[] args)
-        {
-            ExamGrade.Grade(40);
-        }
     }
 }

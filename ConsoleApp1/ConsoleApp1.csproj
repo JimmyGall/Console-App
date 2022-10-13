@@ -47,6 +47,7 @@
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
     <Compile Include="Ballpit.cs" />
+    <Compile Include="BooleanLogic.cs" />
     <Compile Include="CarpetCalculator.cs" />
     <Compile Include="CDQuality.cs" />
     <Compile Include="Circle.cs" />

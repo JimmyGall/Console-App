@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    internal class Divisiable
     {
-        static void Main(string[] args)
+        public static void divisable(double value1, double value2)
         {
+            if ((value1 / value2) != 0)
+            {
 
-            HoursInDay.days(50234);
-            Console.ReadKey();
+            }
         }
     }
 }

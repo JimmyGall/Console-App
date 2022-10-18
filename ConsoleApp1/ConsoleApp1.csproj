@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgeChecker.cs" />
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
     <Compile Include="Ballpit.cs" />
@@ -55,10 +54,13 @@
     <Compile Include="ConvertTempeture.cs" />
     <Compile Include="CurrencyConvertor.cs" />
     <Compile Include="DiceFace.cs" />
+    <Compile Include="DiceProblem.cs" />
+    <Compile Include="Divisiable.cs" />
     <Compile Include="DrivingTest.cs" />
     <Compile Include="EnergyBill.cs" />
     <Compile Include="ExamGrade.cs" />
     <Compile Include="FishTank.cs" />
+    <Compile Include="HoursInDay.cs" />
     <Compile Include="JobQuotes.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="MaxProblem.cs" />

@@ -10,9 +10,10 @@ namespace ConsoleApp1
     {
         public static void Calculate(double sizeInCM, double micrometers)
         {
-            double size = micrometers / sizeInCM;
 
-            Console.WriteLine("Size: " + size);
+            double size = (micrometers / 10000) / sizeInCM;
+
+            Console.WriteLine("Magnification: " + size);
             Console.ReadKey();
         }
     }

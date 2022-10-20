@@ -10,9 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
-            HoursInDay.days(50234);
-            Console.ReadKey();
+            Microscope.Calculate(4, 80);
         }
     }
 }

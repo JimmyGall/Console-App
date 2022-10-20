@@ -15,7 +15,8 @@ namespace ConsoleApp1
             if (Console.ReadLine() == "Yes".ToLower())
             {
                 return 3;
-            } else if (Console.ReadLine() == "No".ToLower())
+            } 
+            else if (Console.ReadLine() == "No".ToLower())
             {
 
                 Console.WriteLine("Is nitrate 2.5?");

@@ -8,10 +8,10 @@ namespace ConsoleApp1
 {
     internal class Microscope
     {
-        public static void Calculate(double sizeInCM, double micrometers)
+        public static void Calculate(double sizeInCM, double magnification)
         {
 
-            double size = (micrometers / 10000) / sizeInCM;
+            double size = sizeInCM / magnification;
 
             Console.WriteLine("Magnification: " + size);
             Console.ReadKey();

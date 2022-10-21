@@ -8,9 +8,13 @@ namespace ConsoleApp1
 {
     internal class PolyhedralDice
     {
-        public static void DiceProblem()
+        public static void DiceProblem(int faces)
         {
+            Random random = new Random();
+            int value = random.Next(0, faces);
 
+            Console.WriteLine("Dice returned " + value + " - Faces: " + faces);
+            Console.ReadKey();
         }
     }
 }

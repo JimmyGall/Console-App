@@ -52,6 +52,7 @@
     <Compile Include="CharacterProblem.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="ClampProblem.cs" />
+    <Compile Include="CompundInterest.cs" />
     <Compile Include="ConvertTempeture.cs" />
     <Compile Include="CurrencyConvertor.cs" />
     <Compile Include="DayProblem.cs" />

@@ -13,7 +13,7 @@ namespace ConsoleApp1
             Random random = new Random();
             int value = random.Next(0, faces);
 
-            Console.WriteLine("Dice returned " + value + " - Faces: " + faces);
+            Console.WriteLine("Dice returned " + value + "\nFaces: " + faces);
             Console.ReadKey();
         }
     }

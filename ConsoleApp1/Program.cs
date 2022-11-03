@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            CompundInterest.interest(100, 4);
+            CarValue.Value(2, 12000, 4000);
             //
         }
     }

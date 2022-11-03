@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            PolyhedralDice.DiceProblem(100);
+            CompundInterest.interest(100, 4);
             //
         }
     }

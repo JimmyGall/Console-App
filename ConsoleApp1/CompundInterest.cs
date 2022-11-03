@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     internal class CompundInterest
     {
-        public static void interest(double startingCash, int years)
+        public static void interest(double startingCash, double years)
         {
             Console.WriteLine("Starting cash: " + startingCash);
             Console.WriteLine("Amount of years: " + years);
@@ -17,8 +17,11 @@ namespace ConsoleApp1
 
             for (int i = 0; i < years; i++)
             {
-
+                cash *= ((years / 100) + 1);
             }
+            Console.WriteLine("Years: " + years + " \nStarting Cash: " + startingCash + " \nInterest %: " + (years / 100) + " \nInterest: " + cash);
+            Console.ReadKey();
+
         }
     }
 }

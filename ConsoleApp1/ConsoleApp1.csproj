@@ -67,6 +67,7 @@
     <Compile Include="HoursInDay.cs" />
     <Compile Include="JobQuotes.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="Loop.cs" />
     <Compile Include="MaxProblem.cs" />
     <Compile Include="Microscope.cs" />
     <Compile Include="MonthChecker.cs" />

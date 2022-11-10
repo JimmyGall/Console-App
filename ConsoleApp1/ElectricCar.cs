@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Divisiable
+    internal class ElectricCar
     {
-        public static void divisable(double value1, double value2)
-        {
-            if ((value1 / value2) != 0)
-            {
 
-            }
+        public static void Car()
+        {
+
         }
     }
 }

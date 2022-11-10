@@ -59,8 +59,10 @@
     <Compile Include="DayProblem.cs" />
     <Compile Include="DiceFace.cs" />
     <Compile Include="DiceProblem.cs" />
-    <Compile Include="Divisiable.cs" />
+    <Compile Include="Divisible.cs" />
+    <Compile Include="DogsLife.cs" />
     <Compile Include="DrivingTest.cs" />
+    <Compile Include="ElectricCar.cs" />
     <Compile Include="EnergyBill.cs" />
     <Compile Include="ExamGrade.cs" />
     <Compile Include="FishTank.cs" />

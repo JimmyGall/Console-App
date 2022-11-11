@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class JobQuotes
+    internal class CareerQuote
     {
 
         public static void Job(string Job)

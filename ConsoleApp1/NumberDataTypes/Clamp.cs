@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class ClampProblem
+    internal class Clamp
     {
         public static void Clamp(int value, int min, int max)
         {

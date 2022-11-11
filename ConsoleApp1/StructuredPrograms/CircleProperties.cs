@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Circle
+    internal class CircleProperties
     {
 
         public static void properties(double diameter, double angle)

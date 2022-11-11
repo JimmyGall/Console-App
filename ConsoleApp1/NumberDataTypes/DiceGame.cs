@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class DiceProblem
+    internal class DiceGame
     {
         static Random random = new Random();
 

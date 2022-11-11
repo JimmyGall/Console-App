@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Microscope
+    internal class Microscopy
     {
         public static void Calculate(double sizeInCM, double magnification)
         {

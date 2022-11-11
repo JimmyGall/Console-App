@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class ConvertTempeture
+    internal class TempetureConverter
     {
 
         public static void ConvertToCentigrade(double F)

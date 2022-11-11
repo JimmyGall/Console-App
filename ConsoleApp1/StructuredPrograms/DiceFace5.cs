@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class DiceFace
+    internal class DiceFace5
     {
 
         public static void Dice(int number)

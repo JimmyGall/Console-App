@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class CarpetCalculator
+    internal class CarpetCost
     {
 
         public static void Cost(double width, double length, double pricePerM)

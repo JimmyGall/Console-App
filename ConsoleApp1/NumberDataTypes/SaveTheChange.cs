@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class SaveTheChangeProblem
+    internal class SaveTheChange
     {
         public static void Change(double Price)
         {

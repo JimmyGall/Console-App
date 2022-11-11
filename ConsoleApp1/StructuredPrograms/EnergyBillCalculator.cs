@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class EnergyBill
+    internal class EnergyBillCalculator
     {
 
         public static void Calcualte(double preivousMeter, double currentReading, double calorificValue)

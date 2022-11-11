@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class WaterStatus
+    internal class StatesOfWater
     {
 
         public static void Status(int status)

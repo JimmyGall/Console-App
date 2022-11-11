@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class DayProblem
+    internal class DayFormat
     {
         public static void format()
         {

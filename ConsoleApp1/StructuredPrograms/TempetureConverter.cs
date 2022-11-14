@@ -17,12 +17,13 @@ namespace ConsoleApp1
             Console.ReadKey();
         }
 
-        public static void ConvertToFahrenheit(double C)
+        public static double ConvertToFahrenheit(double C)
         {
             double temp = (C * 1.8) + 32;
 
             Console.WriteLine("The temputure is " + temp + " Fahrenheit");
-            Console.ReadKey();
+            //Console.ReadKey();
+            return temp;
         }
     }
 }

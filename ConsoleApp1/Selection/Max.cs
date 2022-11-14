@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Max
+    internal class Max_challenge
     {
 
         public static void Max(int first, int second)

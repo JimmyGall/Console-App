@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
+    <Compile Include="StringDataTypes\Tweet.cs" />
     <Compile Include="StructuredPrograms\Ballpit.cs" />
     <Compile Include="BooleanLogic.cs" />
     <Compile Include="StructuredPrograms\CarpetCost.cs" />

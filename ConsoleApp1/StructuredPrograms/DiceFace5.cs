@@ -9,85 +9,94 @@ namespace ConsoleApp1
     internal class DiceFace5
     {
 
-        public static void Dice(int number)
+        public static void Dice()
         {
-            switch (number)
+            Console.Write("\nPlease enter a number:");
+            ConsoleKeyInfo userInput = Console.ReadKey();
+
+            if (char.IsDigit(userInput.KeyChar))
             {
-                case 1:
+                int number = int.Parse(userInput.KeyChar.ToString());
 
-                    Console.WriteLine("00000000000");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0    #    0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("00000000000");
-                    break;
+                Console.WriteLine("\n");
 
-                case 2:
+                switch (number)
+                {
+                    case 1:
 
-                    Console.WriteLine("00000000000");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0      #  0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0  #      0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("00000000000");
-                    break;
+                        Console.WriteLine("00000000000");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0    #    0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("00000000000");
+                        break;
 
-                case 3:
+                    case 2:
 
-                    Console.WriteLine("00000000000");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0      #  0");
-                    Console.WriteLine("0    #    0");
-                    Console.WriteLine("0  #      0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("00000000000");
-                    break;
+                        Console.WriteLine("00000000000");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0      #  0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0  #      0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("00000000000");
+                        break;
 
-                case 4:
+                    case 3:
 
-                    Console.WriteLine("00000000000");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("00000000000");
-                    break;
+                        Console.WriteLine("00000000000");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0      #  0");
+                        Console.WriteLine("0    #    0");
+                        Console.WriteLine("0  #      0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("00000000000");
+                        break;
 
-                case 5:
+                    case 4:
 
-                    Console.WriteLine("00000000000");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0    #    0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("00000000000");
+                        Console.WriteLine("00000000000");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("00000000000");
+                        break;
 
-                    break;
+                    case 5:
 
-                case 6:
+                        Console.WriteLine("00000000000");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0    #    0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("00000000000");
 
-                    Console.WriteLine("00000000000");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0  #   #  0");
-                    Console.WriteLine("0         0");
-                    Console.WriteLine("00000000000");
+                        break;
 
-                    break;
+                    case 6:
 
-                default:
-                    Console.WriteLine("Invalid number");
-                    break;
+                        Console.WriteLine("00000000000");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0  #   #  0");
+                        Console.WriteLine("0         0");
+                        Console.WriteLine("00000000000");
+
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid number");
+                        break;
+                }
+
+                Console.ReadKey();
             }
-
-            Console.ReadKey();
         }
-
     }
 }

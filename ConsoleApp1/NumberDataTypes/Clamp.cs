@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     internal class Clamp
     {
-        public static void Clamp(int value, int min, int max)
+        public static void Clamp_Challenge(int value, int min, int max)
         {
             if (min <= value && value <= max)
             {

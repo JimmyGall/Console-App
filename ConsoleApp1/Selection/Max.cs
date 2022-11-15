@@ -9,7 +9,7 @@ namespace ConsoleApp1
     internal class Max
     {
 
-        public static void Max(int first, int second)
+        public static void Max_Challenge (int first, int second)
         {
             if (first > second)
             {

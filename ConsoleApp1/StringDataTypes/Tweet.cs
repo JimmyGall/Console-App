@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.StringDataTypes
 {
-    internal class Tweet
+    public class Tweet
     {
 
         static void GoodTweet()

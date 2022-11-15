@@ -8,9 +8,21 @@ namespace ConsoleApp1
 {
     internal class TempetureConverter
     {
-
-        public static void ConvertToCentigrade(double F)
+        public static double enterValue()
         {
+            Console.WriteLine("Valyue");
+
+            //Add user to input values
+            //Add it or each convertable
+
+            string message = Console.ReadLine();
+            return Double.Parse(message);
+        }
+
+        public static void ConvertToCentigrade()
+        {
+            double F = enterValue();
+
             double temp = (F - 32) / 1.8;
 
             Console.WriteLine("The temputure is " + temp + " Centigrade");

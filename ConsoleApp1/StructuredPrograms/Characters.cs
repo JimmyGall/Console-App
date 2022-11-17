@@ -8,10 +8,21 @@ namespace ConsoleApp1
 {
     internal class Characters
     {
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Characters");
+
+            convert();
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
         public static void convert()
         {
-            string message = "0123456789";
-            Console.WriteLine("Message: " + message);
+            Console.WriteLine("Please enter numbers between 0-9");
+
+            string message = Console.ReadLine();
+            Console.WriteLine("\nMessage: " + message);
 
             string newMessage = message
                 .Replace('0', 'a')
@@ -26,9 +37,7 @@ namespace ConsoleApp1
                 .Replace('9', '#');
 
 
-
-
-            Console.WriteLine("New message: " + newMessage);
+            Console.WriteLine("Convert: " + newMessage);
             Console.ReadKey();
         }
     }

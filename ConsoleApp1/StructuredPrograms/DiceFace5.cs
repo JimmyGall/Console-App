@@ -9,9 +9,11 @@ namespace ConsoleApp1
     internal class DiceFace5
     {
 
-        public static void Dice()
+        public static void Run()
         {
-            Console.Write("\nPlease enter a number:");
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Dice Face 5");
+
+            Console.Write("\nPlease enter a number: ");
             ConsoleKeyInfo userInput = Console.ReadKey();
 
             if (char.IsDigit(userInput.KeyChar))
@@ -94,9 +96,9 @@ namespace ConsoleApp1
                         Console.WriteLine("Invalid number");
                         break;
                 }
-
-                Console.ReadKey();
             }
+            Console.ReadKey();
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
         }
     }
 }

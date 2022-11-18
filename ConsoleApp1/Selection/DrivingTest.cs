@@ -8,8 +8,19 @@ namespace ConsoleApp1
 {
     internal class DrivingTest
     {
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Driving test");
 
-        public static void Test(int fualts)
+            Console.WriteLine("Amount of faults in driving test: ");
+            int fualts = ProgramMethods.ProgramMethods.returnInt(Console.ReadLine());
+
+            Test(fualts);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
+        static void Test(int fualts)
         {
             if (fualts >= 15)
             {

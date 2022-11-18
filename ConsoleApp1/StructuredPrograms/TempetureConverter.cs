@@ -18,25 +18,11 @@ namespace ConsoleApp1
             ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
         }
 
-        public static double enterValue()
-        {
-
-            string message = Console.ReadLine();
-            try
-            {
-                return Double.Parse(message);
-            } catch (Exception e)
-            {
-                Console.WriteLine("No value entered defualting to 0");
-                return 0;
-            }
-        }
-
         public static void ConvertToCentigrade()
         {
             Console.WriteLine("Convert to Centigrade from Fahrenheit...");
 
-            double F = enterValue();
+            double F = ProgramMethods.ProgramMethods.returnDouble(Console.ReadLine());
             double temp = (F - 32) / 1.8;
             
             Console.WriteLine("The temputure is " + temp + " Centigrade");
@@ -47,7 +33,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Convert to Fahrenheit from Centigrade...");
 
-            double C = enterValue();
+            double C = ProgramMethods.ProgramMethods.returnDouble(Console.ReadLine());
             double temp = (C * 1.8) + 32;
 
             Console.WriteLine("The temputure is " + temp + " Fahrenheit");

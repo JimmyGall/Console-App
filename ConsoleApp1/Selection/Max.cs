@@ -9,7 +9,22 @@ namespace ConsoleApp1
     internal class Max
     {
 
-        public static void Max_Challenge (int first, int second)
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Max");
+
+            Console.WriteLine("First number: ");
+            int first = ProgramMethods.ProgramMethods.returnInt(Console.ReadLine());
+
+            Console.WriteLine("Second number: ");
+            int second = ProgramMethods.ProgramMethods.returnInt(Console.ReadLine());
+
+            Max_Challenge(first, second);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
+        static void Max_Challenge (int first, int second)
         {
             if (first > second)
             {

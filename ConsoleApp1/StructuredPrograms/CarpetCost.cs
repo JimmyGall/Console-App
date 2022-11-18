@@ -8,6 +8,23 @@ namespace ConsoleApp1
 {
     internal class CarpetCost
     {
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Carpet Cost");
+
+            Console.WriteLine("Carpet width (Meters): ");
+            double width = ProgramMethods.ProgramMethods.returnDouble(Console.ReadLine());
+
+            Console.WriteLine("Carpet length (Meters): ");
+            double length = ProgramMethods.ProgramMethods.returnDouble(Console.ReadLine());
+
+            Console.WriteLine("Price per m2: ");
+            double pricePerM = ProgramMethods.ProgramMethods.returnDouble(Console.ReadLine());
+
+            Cost(width, length, pricePerM);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
 
         public static void Cost(double width, double length, double pricePerM)
         {
@@ -25,6 +42,5 @@ namespace ConsoleApp1
             Console.WriteLine("Total carpet cost = " + cost);
             Console.ReadKey();
         }
-
     }
 }

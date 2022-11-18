@@ -52,6 +52,38 @@ namespace ConsoleApp1.ConsoleCommands
                     Characters.Run();
                     break;
 
+                case "4":
+                    FishTankVolume.Run();
+                    break;
+
+                case "5":
+                    Microscopy.Run();
+                    break;
+
+                case "6":
+                    CarpetCost.Run();
+                    break;
+
+                case "7":
+                    EnergyBillCalculator.Run();
+                    break;
+
+                case "8":
+                    CircleProperties.Run();
+                    break;
+
+                case "9":
+                    Ballpit.Run();
+                    break;
+
+                case "10":
+                    DrivingTest.Run();
+                    break;
+
+                case "11":
+                    Max.Run();
+                    break;
+
 
                 //Extra commands
 

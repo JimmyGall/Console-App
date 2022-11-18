@@ -48,7 +48,7 @@
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />
     <Compile Include="ConsoleCommands\HelpCommand.cs" />
-    <Compile Include="ProgramMethods\ProgramMethods.cs" />
+    <Compile Include="Utils\ProgramMethods.cs" />
     <Compile Include="StringDataTypes\Tweet.cs" />
     <Compile Include="StructuredPrograms\Ballpit.cs" />
     <Compile Include="BooleanLogic.cs" />

@@ -9,7 +9,19 @@ namespace ConsoleApp1
     internal class StatesOfWater
     {
 
-        public static void Status(int status)
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: States of Water");
+
+            Console.WriteLine("Water status: ");
+            int status = ProgramMethods.ProgramMethods.returnInt(Console.ReadLine());
+
+            Status(status);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
+        static void Status(int status)
         {
             if (status >= 100)
             {
@@ -21,6 +33,8 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Solid");
             }
+
+            Console.ReadKey();
         }
 
     }

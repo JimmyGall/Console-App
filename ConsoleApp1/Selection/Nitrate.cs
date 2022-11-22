@@ -9,6 +9,16 @@ namespace ConsoleApp1
     internal class Nitrate
     {
 
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Nitrate");
+
+            Console.WriteLine(Dose());
+            Console.ReadKey();
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
         public static double Dose()
         {
             Console.WriteLine("Is nitrate above 10?");

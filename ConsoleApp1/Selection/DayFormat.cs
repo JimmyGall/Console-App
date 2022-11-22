@@ -8,6 +8,15 @@ namespace ConsoleApp1
 {
     internal class DayFormat
     {
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Day Format");
+
+            format();
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
         public static void format()
         {
             Console.WriteLine("What day is it today? \nOptions: monday, tuesday, wednesday, thursday, friday, sataruday, sunday");

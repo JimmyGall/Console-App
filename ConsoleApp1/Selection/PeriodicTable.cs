@@ -8,6 +8,16 @@ namespace ConsoleApp1
 {
     internal class PeriodicTable
     {
+
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Periodic Table");
+
+            element();
+            
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
         public static void element()
         {
             Console.WriteLine("Please enter an element:");
@@ -32,7 +42,7 @@ namespace ConsoleApp1
                     return "Element: Lithium \nAtomic weight: 6.9410 \nGroup: Alkali metals";
 
             }
-            return null;
+            return "Element has not been written in the switch-case statement, try something else.";
         }
     }
 }

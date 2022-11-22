@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
+    <Compile Include="ConsoleCommands\FPrintCommand.cs" />
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />
     <Compile Include="ConsoleCommands\HelpCommand.cs" />

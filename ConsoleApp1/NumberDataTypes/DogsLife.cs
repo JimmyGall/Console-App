@@ -8,6 +8,19 @@ namespace ConsoleApp1
 {
     internal class DogsLife
     {
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Dogs Life");
+
+            Console.WriteLine("Enter their age: ");
+
+            int year = ProgramMethods.ProgramMethods.returnInt(Console.ReadLine());
+
+            dog_life(year);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
         public static void dog_life(int years)
         {
 

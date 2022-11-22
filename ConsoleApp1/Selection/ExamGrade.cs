@@ -8,6 +8,17 @@ namespace ConsoleApp1
 {
     internal class ExamGrade
     {
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Exam grade");
+
+            Console.WriteLine("What score did you get on your exam? ");
+            int score = ProgramMethods.ProgramMethods.returnInt(Console.ReadLine());
+
+            Grade(score);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
 
         public static void Grade(int score)
         {

@@ -84,6 +84,70 @@ namespace ConsoleApp1.ConsoleCommands
                     Max.Run();
                     break;
 
+                case "12":
+                    StatesOfWater.Run();
+                    break;
+
+                case "13":
+                    CareerQuote.Run();
+                    break;
+
+                case "14":
+                    CurrencyConvertor.Run();
+                    break;
+
+                case "15":
+                    Nitrate.Run();
+                    break;
+
+                case "16":
+                    ExamGrade.Run();
+                    break;
+
+                case "17":
+                    PeriodicTable.Run();
+                    break;
+
+                case "18":
+                    DayFormat.Run();
+                    break;
+
+                case "19":
+                    SaveTheChange.Run();
+                    break;
+
+                case "20":
+                    PolyhedralDice.Run();
+                    break;
+
+                case "21":
+                    Clamp.Run();
+                    break;
+
+                case "22":
+                    LeapYear.Run();
+                    break;
+
+                case "23":
+                    HoursInADay.Run();
+                    break;
+
+                case "24":
+                    DiceGame.Run();
+                    break;
+
+                case "25":
+                    Divisible.Run();
+                    break;
+
+                case "26":
+                    DogsLife.Run();
+                    break;
+
+                case "27":
+                    ElectricCar.Run();
+                    break;
+
 
                 //Extra commands
 
@@ -99,6 +163,10 @@ namespace ConsoleApp1.ConsoleCommands
 
                 case "off":
                     ConsoleCommands.ExitCommand.Execute();
+                    break;
+
+                case "FPrint":
+                    ConsoleCommands.FPrintCommand.Execute();
                     break;
 
                 default:

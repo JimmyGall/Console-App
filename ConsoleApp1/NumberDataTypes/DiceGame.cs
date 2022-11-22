@@ -12,6 +12,15 @@ namespace ConsoleApp1
 
         static int potentialScore;
 
+        public static void Run()
+        {
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Dice Game");
+
+            function();
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
         public static void function()
         {
             int score = 0;
@@ -28,7 +37,6 @@ namespace ConsoleApp1
 
                 Console.WriteLine("Score: " + score);
                 score = 0;
-                Console.ReadKey();
 
             } else if (Console.ReadKey().Key == ConsoleKey.N)
             {

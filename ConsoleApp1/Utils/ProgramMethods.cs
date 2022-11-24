@@ -10,7 +10,7 @@ namespace ConsoleApp1.ProgramMethods
     {
         public static void ProgramTitle(string title)
         {
-            Console.Title = "Console Application - " + title;
+            Console.Title = "Console Application (v0.2) - " + title;
         }
 
 

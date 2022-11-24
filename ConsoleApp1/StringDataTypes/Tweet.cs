@@ -9,11 +9,20 @@ namespace ConsoleApp1.StringDataTypes
     public class Tweet
     {
 
-        static void GoodTweet()
+        public static void Run()
         {
-            Console.WriteLine("Please enter your tweet: ");
+            ProgramMethods.ProgramMethods.ProgramTitle("Program: Tweet");
 
-            string input = Console.ReadLine();
+            Console.WriteLine("Please enter your tweet: ");
+            string tweet = Console.ReadLine();
+
+            GoodTweet(tweet);
+
+            ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
+        }
+
+        static void GoodTweet(string input)
+        {
 
             if (input.Length <= 20)
             {
@@ -22,7 +31,8 @@ namespace ConsoleApp1.StringDataTypes
             {
                 Console.WriteLine("True. Good tweet.");
             }
-        }
 
+            Console.ReadKey();
+        }
     }
 }

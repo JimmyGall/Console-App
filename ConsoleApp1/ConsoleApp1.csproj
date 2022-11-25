@@ -49,10 +49,14 @@
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />
     <Compile Include="ConsoleCommands\HelpCommand.cs" />
+    <Compile Include="CounterControlledIterations\Factorial.cs" />
+    <Compile Include="CounterControlledIterations\TimesTable.cs" />
     <Compile Include="StringDataTypes\AirlineTicket.cs" />
+    <Compile Include="StringDataTypes\ASCII_To_EBCDIC.cs" />
     <Compile Include="StringDataTypes\Initial_Surname.cs" />
     <Compile Include="StringDataTypes\Inventory.cs" />
     <Compile Include="StringDataTypes\NameSeperator.cs" />
+    <Compile Include="StringDataTypes\NamingConventions.cs" />
     <Compile Include="StringDataTypes\TeacherCode.cs" />
     <Compile Include="StringDataTypes\Valid_Email.cs" />
     <Compile Include="Utils\ProgramMethods.cs" />

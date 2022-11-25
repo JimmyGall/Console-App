@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1.StringDataTypes
@@ -15,14 +16,17 @@ namespace ConsoleApp1.StringDataTypes
             Console.WriteLine("Enter your full name: ");
             string name = Console.ReadLine();
 
-            valid_email(email);
+            nameSplitter(name);
 
             ConsoleCommands.ConsoleCommandManager.DisplayPrograms(false);
         }
 
         static void nameSplitter(string name)
         {
-            Regex.Split(name, @"(?<!^)(?=[A-Z])");
+            var r = new Regex(@"(?<=[A-Z])(?=[A-Z][a-z]) |(?<=[^A-Z])(?=[A-Z]) |(?<=[A-Za-z])(?=[^A-Za-z])", RegexOptions.IgnorePatternWhitespace);
+
+            Console.WriteLine("{0}", r.Replace(name, " "));
+            Console.ReadKey();
         }
     }
 }

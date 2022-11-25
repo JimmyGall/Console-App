@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.StringDataTypes;
+﻿using ConsoleApp1.CounterControlledIterations;
+using ConsoleApp1.StringDataTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,21 +13,24 @@ namespace ConsoleApp1.ConsoleCommands
         public static void DisplayPrograms(bool unknown)
         {
             Console.Clear();
+
+            Console.SetWindowSize(200, 40);
+
             ProgramMethods.ProgramMethods.ProgramTitle("Main menu");
 
 
             Console.WriteLine("Please choose one of the following programs to run: \n" +
                     "---\n" +
-                    "1. Structured programs:    | 2. Selection:           | 3. Number data types: | 4. String data types   \n" +
-                    " 1. Dice Face 5            |  10. Driving Test       |  19. Save the change  |  28. Tweet             \n" +
-                    " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname \n" +
-                    " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory         \n" +
-                    " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket    \n" +
-                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code      \n" +
-                    " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email\n" +
-                    " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |\n" +
-                    " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |\n" +
-                    " 9. Ball pit               |  18. Day format         |  27. Electric car     |\n" +
+                    "1. Structured programs:    | 2. Selection:           | 3. Number data types: | 4. String data types    | 5. Counter-controlled iterations\n" +
+                    " 1. Dice Face 5            |  10. Driving Test       |  19. Save the change  |  28. Tweet              |  37. Times table\n" +
+                    " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname  |  38. Factorial\n" +
+                    " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |\n" +
+                    " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |\n" +
+                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |\n" +
+                    " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |\n" +
+                    " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |\n" +
+                    " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |\n" +
+                    " 9. Ball pit               |  18. Day format         |  27. Electric car     |  36. ASCII to EBCDIC    |\n" +
                     "\n" +
                     "For more commands, type 'help'.");
 
@@ -173,6 +177,27 @@ namespace ConsoleApp1.ConsoleCommands
                     Valid_Email.Run();
                     break;
 
+                case "34":
+                    NameSeperator.Run();
+                    break;
+
+                case "35":
+                    NamingConventions.Run();
+                    break;
+
+                case "36":
+                    ASCII_To_EBCDIC.Run();
+                    break;
+
+                //Counter-Controlled Iterations
+
+                case "37":
+                    TimesTable.Run();
+                    break;
+
+                case "38":
+                    Factorial.Run();
+                    break;
 
                 //Extra commands
 

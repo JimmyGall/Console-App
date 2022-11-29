@@ -22,11 +22,11 @@ namespace ConsoleApp1.ConsoleCommands
             Console.WriteLine("Please choose one of the following programs to run: \n" +
                     "---\n" +
                     "1. Structured programs:    | 2. Selection:           | 3. Number data types: | 4. String data types    | 5. Counter-controlled iterations\n" +
-                    " 1. Dice Face 5            |  10. Driving Test       |  19. Save the change  |  28. Tweet              |  37. Times table\n" +
-                    " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname  |  38. Factorial\n" +
-                    " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |\n" +
-                    " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |\n" +
-                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |\n" +
+                    " 1. Dice Face 5            |  10. Driving Test       |  19. Save the change  |  28. Tweet              |  37. Times table       \n" +
+                    " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname  |  38. Factorial         \n" +
+                    " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |  39. Ten green bottles \n" +
+                    " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |  40. ASCII Art         \n" +
+                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz         \n" +
                     " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |\n" +
                     " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |\n" +
                     " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |\n" +
@@ -45,6 +45,8 @@ namespace ConsoleApp1.ConsoleCommands
         {
             switch (id)
             {
+                #region Region: Structured programs
+
                 case "1":
                     DiceFace5.Run();
                     break;
@@ -80,7 +82,9 @@ namespace ConsoleApp1.ConsoleCommands
                 case "9":
                     Ballpit.Run();
                     break;
+                #endregion
 
+                #region Region: Selection
                 case "10":
                     DrivingTest.Run();
                     break;
@@ -116,7 +120,9 @@ namespace ConsoleApp1.ConsoleCommands
                 case "18":
                     DayFormat.Run();
                     break;
+                #endregion
 
+                #region Region: Number data types
                 case "19":
                     SaveTheChange.Run();
                     break;
@@ -152,7 +158,9 @@ namespace ConsoleApp1.ConsoleCommands
                 case "27":
                     ElectricCar.Run();
                     break;
+                #endregion
 
+                #region Region: String data types
                 case "28":
                     Tweet.Run();
                     break;
@@ -188,6 +196,7 @@ namespace ConsoleApp1.ConsoleCommands
                 case "36":
                     ASCII_To_EBCDIC.Run();
                     break;
+                #endregion
 
                 //Counter-Controlled Iterations
 
@@ -199,7 +208,19 @@ namespace ConsoleApp1.ConsoleCommands
                     Factorial.Run();
                     break;
 
-                //Extra commands
+                case "39":
+                    TenGreenBottles.Run();
+                    break;
+
+                case "40":
+                    ASCII_Art.Run();
+                    break;
+
+                case "41":
+                    FizzBuzz.Run();
+                    break;
+                    
+                #region Region: EXTRA COMMANDS
 
                 case "help":
                     ConsoleCommands.HelpCommand.Execute();
@@ -218,6 +239,8 @@ namespace ConsoleApp1.ConsoleCommands
                 case "FPrint":
                     ConsoleCommands.FPrintCommand.Execute();
                     break;
+
+                #endregion
 
                 default:
                     DisplayPrograms(true);

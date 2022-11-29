@@ -49,7 +49,11 @@
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />
     <Compile Include="ConsoleCommands\HelpCommand.cs" />
+    <Compile Include="CounterControlledIterations\ASCII_Art.cs" />
     <Compile Include="CounterControlledIterations\Factorial.cs" />
+    <Compile Include="CounterControlledIterations\FizzBuzz.cs" />
+    <Compile Include="CounterControlledIterations\Scramble.cs" />
+    <Compile Include="CounterControlledIterations\TenGreenBottles.cs" />
     <Compile Include="CounterControlledIterations\TimesTable.cs" />
     <Compile Include="StringDataTypes\AirlineTicket.cs" />
     <Compile Include="StringDataTypes\ASCII_To_EBCDIC.cs" />

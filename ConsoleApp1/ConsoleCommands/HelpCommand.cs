@@ -18,7 +18,10 @@ namespace ConsoleApp1.ConsoleCommands
             Console.WriteLine("Available commands:                                                  \n" +
                               " help - Displays this help message                                   \n" +
                               " exit - Exits the program. (Alternatives: 'e', 'terminate' or 'off') \n" +
-                              " FPrint - Example of printing a better print.");
+                              " FPrint - Example of printing a better print.                        \n" +
+                              "                                                                     \n" +
+                              "Fun stuff to try out:                                                \n" +
+                              " crack password - A program that times how long it takes for a computer to guess your passcode.");
 
             ConsoleCommands.ConsoleCommandManager.Command(Console.ReadLine());
         }

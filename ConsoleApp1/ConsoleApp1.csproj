@@ -48,10 +48,14 @@
     <Compile Include="ConsoleCommands\FPrintCommand.cs" />
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />
+    <Compile Include="ConsoleCommands\FunStuff\PasswordHackCommand.cs" />
     <Compile Include="ConsoleCommands\HelpCommand.cs" />
     <Compile Include="CounterControlledIterations\ASCII_Art.cs" />
+    <Compile Include="CounterControlledIterations\Cassini.cs" />
     <Compile Include="CounterControlledIterations\Factorial.cs" />
     <Compile Include="CounterControlledIterations\FizzBuzz.cs" />
+    <Compile Include="CounterControlledIterations\Passcode.cs" />
+    <Compile Include="CounterControlledIterations\PrimeNumber.cs" />
     <Compile Include="CounterControlledIterations\Scramble.cs" />
     <Compile Include="CounterControlledIterations\TenGreenBottles.cs" />
     <Compile Include="CounterControlledIterations\TimesTable.cs" />

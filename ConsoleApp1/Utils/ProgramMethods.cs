@@ -39,5 +39,18 @@ namespace ConsoleApp1.ProgramMethods
                 return 0;
             }
         }
+
+        public static long returnLong(string message)
+        {
+            try
+            {
+                return Int64.Parse(message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("No value entered defualting to 0");
+                return 0;
+            }
+        }
     }
 }

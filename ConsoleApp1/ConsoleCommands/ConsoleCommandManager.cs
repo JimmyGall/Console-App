@@ -27,10 +27,10 @@ namespace ConsoleApp1.ConsoleCommands
                     " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |  39. Ten green bottles \n" +
                     " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |  40. ASCII Art         \n" +
                     " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz         \n" +
-                    " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |\n" +
-                    " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |\n" +
-                    " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |\n" +
-                    " 9. Ball pit               |  18. Day format         |  27. Electric car     |  36. ASCII to EBCDIC    |\n" +
+                    " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |  42. Scramble          \n" +
+                    " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |  43. Passcode          \n" +
+                    " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |  44. Cassini           \n" +
+                    " 9. Ball pit               |  18. Day format         |  27. Electric car     |  36. ASCII to EBCDIC    |  45. Prime Number      \n" +
                     "\n" +
                     "For more commands, type 'help'.");
 
@@ -198,7 +198,7 @@ namespace ConsoleApp1.ConsoleCommands
                     break;
                 #endregion
 
-                //Counter-Controlled Iterations
+                #region Region: Counter-Controlled Iterations
 
                 case "37":
                     TimesTable.Run();
@@ -219,11 +219,33 @@ namespace ConsoleApp1.ConsoleCommands
                 case "41":
                     FizzBuzz.Run();
                     break;
-                    
+
+                case "42":
+                    Scramble.Run();
+                    break;
+
+                case "43":
+                    Passcode.Run();
+                    break;
+
+                case "44":
+                    Cassini.Run();
+                    break;
+
+                case "45":
+                    PrimeNumber.Run();
+                    break;
+
+                #endregion
+
                 #region Region: EXTRA COMMANDS
 
                 case "help":
                     ConsoleCommands.HelpCommand.Execute();
+                    break;
+
+                case "crack password":
+                    ConsoleCommands.FunStuff.PasswordHackCommand.Run();
                     break;
 
                 case "exit":

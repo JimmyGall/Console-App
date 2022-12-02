@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
+    <Compile Include="ConditionControlledIterations\CompoundInterest.cs" />
     <Compile Include="ConsoleCommands\FPrintCommand.cs" />
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />
@@ -72,12 +73,11 @@
     <Compile Include="StructuredPrograms\Ballpit.cs" />
     <Compile Include="BooleanLogic.cs" />
     <Compile Include="StructuredPrograms\CarpetCost.cs" />
-    <Compile Include="CarValue.cs" />
+    <Compile Include="ConditionControlledIterations\CarValue.cs" />
     <Compile Include="CDQuality.cs" />
     <Compile Include="StructuredPrograms\Characters.cs" />
     <Compile Include="StructuredPrograms\CircleProperties.cs" />
     <Compile Include="NumberDataTypes\Clamp.cs" />
-    <Compile Include="CompundInterest.cs" />
     <Compile Include="StructuredPrograms\TempetureConverter.cs" />
     <Compile Include="Selection\CurrencyConvertor.cs" />
     <Compile Include="Selection\DayFormat.cs" />
@@ -109,8 +109,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

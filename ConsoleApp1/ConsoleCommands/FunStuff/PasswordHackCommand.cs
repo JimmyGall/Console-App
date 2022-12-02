@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,10 @@ namespace ConsoleApp1.ConsoleCommands.FunStuff
 
         static void crack_password(long passcode)
         {
+            Stopwatch stopWatch = new Stopwatch();
+
+            stopWatch.Start();
+
             for (int i = 0; i < passcode; i++)
             {
                 if (i != passcode)
@@ -37,6 +42,11 @@ namespace ConsoleApp1.ConsoleCommands.FunStuff
                     break;
                 }
             }
+
+            stopWatch.Stop();
+            TimeSpan ts = stopWatch.Elapsed;
+
+            Console.WriteLine($"Time took to crack the passcode: Hours: {ts.Hours} Minutes: {ts.Minutes} Milliseconds: {ts.Milliseconds}");
 
             Console.ReadKey();
         }

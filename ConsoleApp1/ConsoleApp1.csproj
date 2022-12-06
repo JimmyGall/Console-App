@@ -46,6 +46,8 @@
     <Compile Include="AgePrograms\YearGroupExample1.cs" />
     <Compile Include="AgePrograms\YearGroupExample2.cs" />
     <Compile Include="ConditionControlledIterations\CompoundInterest.cs" />
+    <Compile Include="ConditionControlledIterations\DiscountCounter.cs" />
+    <Compile Include="ConditionControlledIterations\Lottery.cs" />
     <Compile Include="ConsoleCommands\FPrintCommand.cs" />
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
     <Compile Include="ConsoleCommands\ExitCommand.cs" />

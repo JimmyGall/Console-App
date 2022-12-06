@@ -25,8 +25,8 @@ namespace ConsoleApp1.ConsoleCommands
                     "1. Structured programs:    | 2. Selection:           | 3. Number data types: | 4. String data types    | 5. Counter-controlled iterations | 6. Condition-Controlled iterations  \n" +
                     " 1. Dice Face 5            |  10. Driving Test       |  19. Save the change  |  28. Tweet              |  37. Times table                 |  46. Compound Interest              \n" +
                     " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname  |  38. Factorial                   |  47. Car Value                      \n" +
-                    " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |  39. Ten green bottles           |\n" +
-                    " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |  40. ASCII Art                   |\n" +
+                    " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |  39. Ten green bottles           |  48. Discount Counter               \n" +
+                    " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |  40. ASCII Art                   |  49. Lottery                        \n" +
                     " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz                   |\n" +
                     " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |  42. Scramble                    |\n" +
                     " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |  43. Passcode                    |\n" +
@@ -247,6 +247,14 @@ namespace ConsoleApp1.ConsoleCommands
 
                 case "47":
                     CarValue.Run();
+                    break;
+
+                case "48":
+                    DiscountCounter.Run();
+                    break;
+
+                case "49":
+                    Lottery.Run();
                     break;
 
                 #region Region: EXTRA COMMANDS

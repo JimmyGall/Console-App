@@ -37,21 +37,17 @@ namespace ConsoleApp1.ConditionControlledIterations
             int randomNum2 = random.Next(0, 30);
             int randomNum3 = random.Next(0, 30);
 
-            int weeks = 0;
-
-            do
+            for (int weeks = 0; !((randomNum1 == num1) && (randomNum2 == num2) && (randomNum3 == num3)); weeks++)
             {
-                weeks++;
                 Console.WriteLine($"Week {weeks}: Numbers: {randomNum1}, {randomNum2} and {randomNum3}. You put {num1}, {num2} and {num3}");
 
                 randomNum1 = random.Next(0, 30);
                 randomNum2 = random.Next(0, 30);
                 randomNum3 = random.Next(0, 30);
+            }
 
-            } while (randomNum1 != num1 && randomNum2 != num2 && randomNum3 != num3);
 
-
-            Console.WriteLine($": Numbers: {randomNum1}, {randomNum2} and {randomNum3}. You put {num1}, {num2} and {num3}");
+            Console.WriteLine($"Lottery won! Numbers: {randomNum1}, {randomNum2} and {randomNum3}. You put {num1}, {num2} and {num3}");
             Console.ReadKey();
         }
     }

@@ -1,11 +1,8 @@
 ﻿using ConsoleApp1.ConditionControlledIterations;
 using ConsoleApp1.CounterControlledIterations;
+using ConsoleApp1.Questions.ConditionControlledIterations;
 using ConsoleApp1.StringDataTypes;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1.ConsoleCommands
 {
@@ -27,7 +24,7 @@ namespace ConsoleApp1.ConsoleCommands
                     " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname  |  38. Factorial                   |  47. Car Value                      \n" +
                     " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |  39. Ten green bottles           |  48. Discount Counter               \n" +
                     " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |  40. ASCII Art                   |  49. Lottery                        \n" +
-                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz                   |\n" +
+                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz                   |  50. Cash Point [MEMORY ISSUES]     \n" +
                     " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |  42. Scramble                    |\n" +
                     " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |  43. Passcode                    |\n" +
                     " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |  44. Cassini                     |\n" +
@@ -257,6 +254,10 @@ namespace ConsoleApp1.ConsoleCommands
                     Lottery.Run();
                     break;
 
+                case "50":
+                    CashPoint.Run();
+                    break;
+
                 #region Region: EXTRA COMMANDS
 
                 case "help":
@@ -279,6 +280,14 @@ namespace ConsoleApp1.ConsoleCommands
 
                 case "FPrint":
                     ConsoleCommands.FPrintCommand.Execute();
+                    break;
+
+                case "settings":
+                    ConsoleCommands.SettingsCommand.Execute();
+                    break;
+
+                case "disco":
+                    FunStuff.DiscoMode.Execute();
                     break;
 
                 #endregion

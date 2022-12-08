@@ -19,9 +19,12 @@ namespace ConsoleApp1.ConsoleCommands
                               " help - Displays this help message                                   \n" +
                               " exit - Exits the program. (Alternatives: 'e', 'terminate' or 'off') \n" +
                               " FPrint - Example of printing a better print.                        \n" +
-                              "                                                                     \n" +
-                              "Fun stuff to try out:                                                \n" +
-                              " crack password - A program that times how long it takes for a computer to guess your passcode.");
+                              " settings - shows the settings menu.                                 \n" +
+                              "");
+
+            Console.WriteLine("Fun stuff to try out:                                                \n" +
+                              " crack password - A program that times how long it takes for a computer to guess your passcode. \n" +
+                              " disco - Makes the program go disco mode, re-enter command to stop.");
 
             ConsoleCommands.ConsoleCommandManager.Command(Console.ReadLine());
         }

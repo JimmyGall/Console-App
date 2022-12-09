@@ -48,7 +48,9 @@
     <Compile Include="ConsoleCommands\FunStuff\DiscoMode.cs" />
     <Compile Include="Questions\ConditionControlledIterations\CashPoint.cs" />
     <Compile Include="Questions\ConditionControlledIterations\CompoundInterest.cs" />
+    <Compile Include="Questions\ConditionControlledIterations\DenaryToBinary.cs" />
     <Compile Include="Questions\ConditionControlledIterations\DiscountCounter.cs" />
+    <Compile Include="Questions\ConditionControlledIterations\HappyNumbers.cs" />
     <Compile Include="Questions\ConditionControlledIterations\Lottery.cs" />
     <Compile Include="ConsoleCommands\FPrintCommand.cs" />
     <Compile Include="ConsoleCommands\ConsoleCommandManager.cs" />
@@ -56,6 +58,7 @@
     <Compile Include="ConsoleCommands\FunStuff\PasswordHackCommand.cs" />
     <Compile Include="ConsoleCommands\HelpCommand.cs" />
     <Compile Include="ConsoleCommands\SettingsCommand.cs" />
+    <Compile Include="Questions\ConditionControlledIterations\SquareRoot.cs" />
     <Compile Include="Questions\CounterControlledIterations\ASCII_Art.cs" />
     <Compile Include="Questions\CounterControlledIterations\Cassini.cs" />
     <Compile Include="Questions\CounterControlledIterations\Factorial.cs" />
@@ -77,10 +80,8 @@
     <Compile Include="Utils\ProgramMethods.cs" />
     <Compile Include="Questions\StringDataTypes\Tweet.cs" />
     <Compile Include="Questions\StructuredPrograms\Ballpit.cs" />
-    <Compile Include="BooleanLogic.cs" />
     <Compile Include="Questions\StructuredPrograms\CarpetCost.cs" />
     <Compile Include="Questions\ConditionControlledIterations\CarValue.cs" />
-    <Compile Include="CDQuality.cs" />
     <Compile Include="Questions\StructuredPrograms\Characters.cs" />
     <Compile Include="Questions\StructuredPrograms\CircleProperties.cs" />
     <Compile Include="Questions\NumberDataTypes\Clamp.cs" />
@@ -99,17 +100,14 @@
     <Compile Include="Questions\NumberDataTypes\HoursInADay.cs" />
     <Compile Include="Questions\Selection\CareerQuote.cs" />
     <Compile Include="Questions\NumberDataTypes\LeapYear.cs" />
-    <Compile Include="Loop.cs" />
     <Compile Include="Questions\Selection\Max.cs" />
     <Compile Include="Questions\StructuredPrograms\Microscopy.cs" />
-    <Compile Include="MonthChecker.cs" />
     <Compile Include="Questions\Selection\Nitrate.cs" />
     <Compile Include="Questions\Selection\PeriodicTable.cs" />
     <Compile Include="Questions\NumberDataTypes\PolyhedralDice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questions\NumberDataTypes\SaveTheChange.cs" />
-    <Compile Include="Test.cs" />
     <Compile Include="Questions\Selection\StatesOfWater.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,12 +24,13 @@ namespace ConsoleApp1.ConsoleCommands
                     " 2. Temperature converter  |  11. Max                |  20. Polyhendral dice |  29. Initial & Surname  |  38. Factorial                   |  47. Car Value                      \n" +
                     " 3. Characters             |  12. States of water    |  21. Clamp            |  30. Inventory          |  39. Ten green bottles           |  48. Discount Counter               \n" +
                     " 4. Fish tank volume       |  13. Career quote       |  22. Leap year        |  31. Airline ticket     |  40. ASCII Art                   |  49. Lottery                        \n" +
-                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz                   |  50. Cash Point [MEMORY ISSUES]     \n" +
-                    " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |  42. Scramble                    |\n" +
-                    " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |  43. Passcode                    |\n" +
-                    " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |  44. Cassini                     |\n" +
+                    " 5. Microscopy             |  14. Currency converter |  23. Hours in a day   |  32. Teacher code       |  41. Fizz Buzz                   |  50. Cash Point                     \n" +
+                    " 6. Carpet cost            |  15. Nitrate            |  24. Dice game        |  33. Valid Email        |  42. Scramble                    |  51. Square Root                    \n" +
+                    " 7. Energy bill calculator |  16. Exam grade         |  25. Divisable        |  34. Name seperator     |  43. Passcode                    |  52. Denary To Binary               \n" +
+                    " 8. Circle properties      |  17. Periodic table     |  26. Dogs life        |  35. Naming conventions |  44. Cassini                     |  53. Happy Numbers                  \n" +
                     " 9. Ball pit               |  18. Day format         |  27. Electric car     |  36. ASCII to EBCDIC    |  45. Prime Number                |\n" +
                     "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- \n" +
+                    "7. \n" +
                     "For more commands, type 'help'.");
 
             if (unknown) { Console.WriteLine("Unknown command, try again."); }
@@ -236,8 +237,7 @@ namespace ConsoleApp1.ConsoleCommands
 
                 #endregion
 
-                //Condition-Controlled Iterations
-
+                #region Region: Condition-Controlled Iterations
                 case "46":
                     CompoundInterest.Run();
                     break;
@@ -257,6 +257,19 @@ namespace ConsoleApp1.ConsoleCommands
                 case "50":
                     CashPoint.Run();
                     break;
+
+                case "51":
+                    SquareRoot.Run();
+                    break;
+
+                case "52":
+                    DenaryToBinary.Run();
+                    break;
+
+                case "53":
+                    HappyNumbers.Run();
+                    break;
+                #endregion
 
                 #region Region: EXTRA COMMANDS
 

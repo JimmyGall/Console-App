@@ -31,26 +31,29 @@ namespace ConsoleApp1.Questions.ConditionControlledIterations
 
                 if (currentAmount % 20 == 0)
                 {
-                    currentAmount /= 20;
                     notes.Add(20);
-                }
+                    currentAmount -= 20;
 
-                if (currentAmount % 10 == 0)
+                } else if (currentAmount % 10 == 0)
                 {
-                    currentAmount /= 10;
                     notes.Add(10);
-                }
+                    currentAmount -= 10;
 
-                if (currentAmount % 5 == 0)
+                } else if (currentAmount % 5 == 0)
                 {
-                    currentAmount /= 5;
                     notes.Add(5);
-                }
+                    currentAmount -= 5;
 
-                if (currentAmount % 1 == 0)
+                } else if (currentAmount % 1 == 0)
                 {
-                    currentAmount /= 1;
                     notes.Add(1);
+                    currentAmount -= 1;
+
+                } else
+                {
+                    notes.Add(currentAmount);
+                    currentAmount = 0;
+                    break;
                 }
 
             } while (currentAmount != 0);
@@ -65,6 +68,8 @@ namespace ConsoleApp1.Questions.ConditionControlledIterations
             }
 
             Console.WriteLine("You got: " + message);
+
+            Console.ReadKey();
         }
     }
 }
